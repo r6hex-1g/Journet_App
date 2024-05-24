@@ -1,2 +1,4 @@
-# Journet_App
-🗺️ PWA 양성자 과정 (앱 프로젝트) → 여행과 일기, 연결을 목표로 하는 단 하나의 여행 다이어리형 커뮤니티 어플 프로젝트 // Journey + Connect의 뜻을 가짐; 프랑스 지역 이름인 주흐네(Journet)이랑도 겹침.
+<div align="center">
+  <h1>Journet App</h1>
+  <a href="https://github.com/r6hex-1g/Journet">원래의 러포지토리로 가기!</a>
+</div>
