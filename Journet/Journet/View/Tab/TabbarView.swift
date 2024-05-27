@@ -15,21 +15,14 @@ struct TabbarView: View {
     var body: some View {
         VStack(spacing: 0) {
             TabView(selection: $activeTab) {
+                MapView()
+                    .setUpTab(.anotherDiaries)
                 
-                NavigationStack {
-                    MapView()
-                }
-                .setUpTab(.anotherDiaries)
+                HomeView()
+                    .setUpTab(.Home)
                 
-                NavigationStack {
-                    HomeView()
-                }
-                .setUpTab(.Home)
-                
-                NavigationStack {
-                    ProfileView()
-                }
-                .setUpTab(.profiles)
+                ProfileView()
+                    .setUpTab(.profiles)
             }
             CustomTabBar()
         }
@@ -37,7 +30,7 @@ struct TabbarView: View {
     
     //MARK: - Custom Tab Bar
     func CustomTabBar() -> some View {
-        HStack(spacing: 0) {
+        HStack(spacing: -30) {
             ForEach($allTabs) { $animatedTab in
                 let tab = animatedTab.tab
                 
@@ -47,7 +40,7 @@ struct TabbarView: View {
                         .symbolEffect(.bounce.up.byLayer, value: animatedTab.isAnimateing)
                     
                     Text(tab.title)
-                        .font(.caption2)
+                        .font(.callout)
                         .textScale(.secondary)
                 }
                 
@@ -80,7 +73,7 @@ extension View {
     @ViewBuilder
     func setUpTab(_ tab: Tab) -> some View {
         self
-            .frame(maxWidth: .infinity, maxHeight: .infinity)
+            .frame(maxWidth: .infinity)
             .tag(tab)
             .toolbar(.hidden, for: .tabBar)
     }
