@@ -1,13 +1,13 @@
 {
-  "originHash" : "94c4e2ad3c8bfd41032d406e6498111c9306635ed7898d5d3e85df0e76ab703b",
+  "originHash" : "df81c6d12e3a67d28cb2f7d2d7188ee4c8e0340a04672f13032d7ca30e911102",
   "pins" : [
     {
-      "identity" : "lottie-ios",
+      "identity" : "kakaomapssdk-spm",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/airbnb/lottie-ios",
+      "location" : "https://github.com/kakao-mapsSDK/KakaoMapsSDK-SPM",
       "state" : {
-        "revision" : "769b88d83a42ca8d5572b020c96f47e3690b3796",
-        "version" : "4.4.3"
+        "revision" : "eb68e7b2ada27deb652acf07b985d111b5c16895",
+        "version" : "2.10.5"
       }
     }
   ],

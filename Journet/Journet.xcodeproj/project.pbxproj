@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		24115A752C046BBD00BE4F18 /* KakaoMapsSDK-SPM in Frameworks */ = {isa = PBXBuildFile; productRef = 24115A742C046BBD00BE4F18 /* KakaoMapsSDK-SPM */; };
 		2413DF2B2BCE79DB00CA1CDC /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2413DF2A2BCE79DB00CA1CDC /* Category.swift */; };
 		24150F2D2BDB9A54000A6272 /* CustomFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24150F2C2BDB9A53000A6272 /* CustomFont.swift */; };
 		24150F2E2BDB9A54000A6272 /* CustomFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24150F2C2BDB9A53000A6272 /* CustomFont.swift */; };
@@ -28,8 +29,6 @@
 		2481A0262BCCD26600003B15 /* TabbarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2481A0252BCCD26600003B15 /* TabbarView.swift */; };
 		2481A0292BCCD42100003B15 /* DHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2481A0282BCCD42100003B15 /* DHeaderView.swift */; };
 		2481A02C2BCCD47300003B15 /* DiariesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2481A02B2BCCD47300003B15 /* DiariesView.swift */; };
-		249C99322BD10A5E00A96CAE /* world_globe.json in Resources */ = {isa = PBXBuildFile; fileRef = 249C99312BD10A5E00A96CAE /* world_globe.json */; };
-		249C99392BD110E500A96CAE /* Book.json in Resources */ = {isa = PBXBuildFile; fileRef = 249C99382BD110E500A96CAE /* Book.json */; };
 		24A09C162BCD1F660080C29C /* NHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24A09C152BCD1F660080C29C /* NHeaderView.swift */; };
 		24A09C182BCD1FA10080C29C /* NotificationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24A09C172BCD1FA10080C29C /* NotificationsView.swift */; };
 		24A09C1B2BCD1FCC0080C29C /* HHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24A09C1A2BCD1FCC0080C29C /* HHeaderView.swift */; };
@@ -51,11 +50,6 @@
 		24ABD11B2BCE58730089764C /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24ABD11A2BCE58730089764C /* MapView.swift */; };
 		24ABD11E2BCE5DB80089764C /* DiaryCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24ABD11D2BCE5DB80089764C /* DiaryCard.swift */; };
 		24AF12972BDB3ED0001E7B95 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 24AF12962BDB3ED0001E7B95 /* .gitignore */; };
-		24BC25DA2BD0388C002D9EDA /* AnimatedIcons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24BC25D92BD0388C002D9EDA /* AnimatedIcons.swift */; };
-		24BC25DC2BD03B9C002D9EDA /* ResizableLottieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24BC25DB2BD03B9C002D9EDA /* ResizableLottieView.swift */; };
-		24BC25DD2BD0466C002D9EDA /* Account.json in Resources */ = {isa = PBXBuildFile; fileRef = 24BC25D82BD031EF002D9EDA /* Account.json */; };
-		24BC25DF2BD0466C002D9EDA /* Home.json in Resources */ = {isa = PBXBuildFile; fileRef = 24BC25D62BD031EF002D9EDA /* Home.json */; };
-		24C8EA422BD808DE00A3F226 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 24C8EA412BD808DE00A3F226 /* Lottie */; };
 		24C8EA442BD80AE300A3F226 /* HeaderWeatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24C8EA432BD80AE300A3F226 /* HeaderWeatherView.swift */; };
 		24EF7BC92BDF8C0100B992F3 /* KCC-Hanbit.otf in Resources */ = {isa = PBXBuildFile; fileRef = 24EF7BC82BDF8C0100B992F3 /* KCC-Hanbit.otf */; };
 		24EF7BCB2BDF9AA400B992F3 /* DiaryBigCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24EF7BCA2BDF9AA400B992F3 /* DiaryBigCard.swift */; };
@@ -109,8 +103,6 @@
 		2481A0252BCCD26600003B15 /* TabbarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarView.swift; sourceTree = "<group>"; };
 		2481A0282BCCD42100003B15 /* DHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DHeaderView.swift; sourceTree = "<group>"; };
 		2481A02B2BCCD47300003B15 /* DiariesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiariesView.swift; sourceTree = "<group>"; };
-		249C99312BD10A5E00A96CAE /* world_globe.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = world_globe.json; sourceTree = "<group>"; };
-		249C99382BD110E500A96CAE /* Book.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Book.json; sourceTree = "<group>"; };
 		24A09C152BCD1F660080C29C /* NHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NHeaderView.swift; sourceTree = "<group>"; };
 		24A09C172BCD1FA10080C29C /* NotificationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsView.swift; sourceTree = "<group>"; };
 		24A09C1A2BCD1FCC0080C29C /* HHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HHeaderView.swift; sourceTree = "<group>"; };
@@ -130,10 +122,6 @@
 		24ABD11A2BCE58730089764C /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		24ABD11D2BCE5DB80089764C /* DiaryCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryCard.swift; sourceTree = "<group>"; };
 		24AF12962BDB3ED0001E7B95 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
-		24BC25D62BD031EF002D9EDA /* Home.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Home.json; sourceTree = "<group>"; };
-		24BC25D82BD031EF002D9EDA /* Account.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Account.json; sourceTree = "<group>"; };
-		24BC25D92BD0388C002D9EDA /* AnimatedIcons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedIcons.swift; sourceTree = "<group>"; };
-		24BC25DB2BD03B9C002D9EDA /* ResizableLottieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResizableLottieView.swift; sourceTree = "<group>"; };
 		24C8EA432BD80AE300A3F226 /* HeaderWeatherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderWeatherView.swift; sourceTree = "<group>"; };
 		24EF7BC82BDF8C0100B992F3 /* KCC-Hanbit.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KCC-Hanbit.otf"; sourceTree = "<group>"; };
 		24EF7BCA2BDF9AA400B992F3 /* DiaryBigCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryBigCard.swift; sourceTree = "<group>"; };
@@ -144,7 +132,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				24C8EA422BD808DE00A3F226 /* Lottie in Frameworks */,
+				24115A752C046BBD00BE4F18 /* KakaoMapsSDK-SPM in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -188,7 +176,6 @@
 		24819FE12BCCCE2B00003B15 = {
 			isa = PBXGroup;
 			children = (
-				24DC1D692BD8B812004AD50C /* Resources */,
 				24819FEC2BCCCE2B00003B15 /* Journet */,
 				2481A00A2BCCD1E200003B15 /* DynamicIslandWidget */,
 				2481A0052BCCD1E100003B15 /* Frameworks */,
@@ -208,6 +195,7 @@
 		24819FEC2BCCCE2B00003B15 /* Journet */ = {
 			isa = PBXGroup;
 			children = (
+				24DC1D692BD8B812004AD50C /* Resources */,
 				24A09C372BCD217B0080C29C /* Assets */,
 				2481A01E2BCCD20500003B15 /* Model */,
 				2481A0222BCCD24300003B15 /* View */,
@@ -266,7 +254,6 @@
 			isa = PBXGroup;
 			children = (
 				2481A0202BCCD21800003B15 /* Tab.swift */,
-				24BC25D92BD0388C002D9EDA /* AnimatedIcons.swift */,
 			);
 			path = Tab;
 			sourceTree = "<group>";
@@ -276,8 +263,8 @@
 			children = (
 				24A09C282BCD20A30080C29C /* Welcome */,
 				24A09C1E2BCD201D0080C29C /* Login */,
-				24A09C192BCD1FB90080C29C /* Home */,
 				24ABD1182BCE585F0089764C /* Map */,
+				24A09C192BCD1FB90080C29C /* Home */,
 				2481A0272BCCD3AA00003B15 /* Diaries */,
 				24A09C212BCD20470080C29C /* Proflie */,
 				2481A0232BCCD25300003B15 /* Tab */,
@@ -289,7 +276,6 @@
 			isa = PBXGroup;
 			children = (
 				2481A0252BCCD26600003B15 /* TabbarView.swift */,
-				24BC25DB2BD03B9C002D9EDA /* ResizableLottieView.swift */,
 			);
 			path = Tab;
 			sourceTree = "<group>";
@@ -395,17 +381,6 @@
 			path = Font;
 			sourceTree = "<group>";
 		};
-		24BC25D42BD031E1002D9EDA /* Tab Icons */ = {
-			isa = PBXGroup;
-			children = (
-				24BC25D82BD031EF002D9EDA /* Account.json */,
-				249C99382BD110E500A96CAE /* Book.json */,
-				249C99312BD10A5E00A96CAE /* world_globe.json */,
-				24BC25D62BD031EF002D9EDA /* Home.json */,
-			);
-			path = "Tab Icons";
-			sourceTree = "<group>";
-		};
 		24DA8A0D2BCCE6C2008DF8C9 /* Notifications */ = {
 			isa = PBXGroup;
 			children = (
@@ -419,7 +394,6 @@
 			isa = PBXGroup;
 			children = (
 				24AF129A2BDB7F8E001E7B95 /* Font */,
-				24BC25D42BD031E1002D9EDA /* Tab Icons */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -452,7 +426,7 @@
 			);
 			name = Journet;
 			packageProductDependencies = (
-				24C8EA412BD808DE00A3F226 /* Lottie */,
+				24115A742C046BBD00BE4F18 /* KakaoMapsSDK-SPM */,
 			);
 			productName = Journet;
 			productReference = 24819FEA2BCCCE2B00003B15 /* Journet.app */;
@@ -503,7 +477,7 @@
 			);
 			mainGroup = 24819FE12BCCCE2B00003B15;
 			packageReferences = (
-				24BC25C92BD02BD3002D9EDA /* XCRemoteSwiftPackageReference "lottie-ios" */,
+				24115A732C046BBD00BE4F18 /* XCRemoteSwiftPackageReference "KakaoMapsSDK-SPM" */,
 			);
 			productRefGroup = 24819FEB2BCCCE2B00003B15 /* Products */;
 			projectDirPath = "";
@@ -520,13 +494,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				24BC25DD2BD0466C002D9EDA /* Account.json in Resources */,
 				24EF7BC92BDF8C0100B992F3 /* KCC-Hanbit.otf in Resources */,
 				24AF12972BDB3ED0001E7B95 /* .gitignore in Resources */,
-				24BC25DF2BD0466C002D9EDA /* Home.json in Resources */,
-				249C99392BD110E500A96CAE /* Book.json in Resources */,
 				24819FF52BCCCE2D00003B15 /* Preview Assets.xcassets in Resources */,
-				249C99322BD10A5E00A96CAE /* world_globe.json in Resources */,
 				24819FF22BCCCE2D00003B15 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -570,14 +540,12 @@
 				24A09C202BCD202B0080C29C /* LoginView.swift in Sources */,
 				24819FEE2BCCCE2B00003B15 /* JournetApp.swift in Sources */,
 				24A09C232BCD205B0080C29C /* PHeaderView.swift in Sources */,
-				24BC25DA2BD0388C002D9EDA /* AnimatedIcons.swift in Sources */,
 				24A09C2D2BCD20E60080C29C /* IntroductionView.swift in Sources */,
 				24A09C302BCD210E0080C29C /* IntroductionOne.swift in Sources */,
 				24ABD1172BCE52CA0089764C /* SearchingBar.swift in Sources */,
 				24207E432BD1995D00A5EFFA /* LoginPassword.swift in Sources */,
 				24819FFA2BCCCE2D00003B15 /* Journet.xcdatamodeld in Sources */,
 				24A09C422BCD26610080C29C /* Diaries.swift in Sources */,
-				24BC25DC2BD03B9C002D9EDA /* ResizableLottieView.swift in Sources */,
 				24ABD11E2BCE5DB80089764C /* DiaryCard.swift in Sources */,
 				24207E412BD1986E00A5EFFA /* LoginEmail.swift in Sources */,
 			);
@@ -658,7 +626,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -715,7 +683,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -738,7 +706,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Journet/Info.plist;
-				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.travel";
 				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "";
 				INFOPLIST_KEY_NSSupportsLiveActivities = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -746,6 +714,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -772,7 +741,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Journet/Info.plist;
-				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.travel";
 				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "";
 				INFOPLIST_KEY_NSSupportsLiveActivities = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -780,6 +749,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -880,21 +850,21 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		24BC25C92BD02BD3002D9EDA /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+		24115A732C046BBD00BE4F18 /* XCRemoteSwiftPackageReference "KakaoMapsSDK-SPM" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/airbnb/lottie-ios";
+			repositoryURL = "https://github.com/kakao-mapsSDK/KakaoMapsSDK-SPM";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 4.4.3;
+				minimumVersion = 2.10.5;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		24C8EA412BD808DE00A3F226 /* Lottie */ = {
+		24115A742C046BBD00BE4F18 /* KakaoMapsSDK-SPM */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 24BC25C92BD02BD3002D9EDA /* XCRemoteSwiftPackageReference "lottie-ios" */;
-			productName = Lottie;
+			package = 24115A732C046BBD00BE4F18 /* XCRemoteSwiftPackageReference "KakaoMapsSDK-SPM" */;
+			productName = "KakaoMapsSDK-SPM";
 		};
 /* End XCSwiftPackageProductDependency section */
 
