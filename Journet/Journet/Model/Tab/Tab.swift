@@ -2,16 +2,16 @@ import SwiftUI
 
 //MARK: - Tab's
 enum Tab: String, CaseIterable {
-    case Home = "map.fill"
     case anotherDiaries = "book.pages.fill"
+    case Home = "map.fill"
     case profiles = "person.crop.circle"
     
     var title: String {
            switch self {
-           case .Home:
-               return "홈"
            case .anotherDiaries:
                return "핫플레이스"
+           case .Home:
+               return "홈"
            case .profiles:
                return "내 정보"
            }
