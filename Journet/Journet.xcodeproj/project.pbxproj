@@ -50,7 +50,6 @@
 		24ABD11B2BCE58730089764C /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24ABD11A2BCE58730089764C /* MapView.swift */; };
 		24ABD11E2BCE5DB80089764C /* DiaryCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24ABD11D2BCE5DB80089764C /* DiaryCard.swift */; };
 		24AF12972BDB3ED0001E7B95 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 24AF12962BDB3ED0001E7B95 /* .gitignore */; };
-		24BC25DA2BD0388C002D9EDA /* AnimatedIcons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24BC25D92BD0388C002D9EDA /* AnimatedIcons.swift */; };
 		24C8EA442BD80AE300A3F226 /* HeaderWeatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24C8EA432BD80AE300A3F226 /* HeaderWeatherView.swift */; };
 		24EF7BC92BDF8C0100B992F3 /* KCC-Hanbit.otf in Resources */ = {isa = PBXBuildFile; fileRef = 24EF7BC82BDF8C0100B992F3 /* KCC-Hanbit.otf */; };
 		24EF7BCB2BDF9AA400B992F3 /* DiaryBigCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24EF7BCA2BDF9AA400B992F3 /* DiaryBigCard.swift */; };
@@ -123,7 +122,6 @@
 		24ABD11A2BCE58730089764C /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		24ABD11D2BCE5DB80089764C /* DiaryCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryCard.swift; sourceTree = "<group>"; };
 		24AF12962BDB3ED0001E7B95 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
-		24BC25D92BD0388C002D9EDA /* AnimatedIcons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedIcons.swift; sourceTree = "<group>"; };
 		24C8EA432BD80AE300A3F226 /* HeaderWeatherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderWeatherView.swift; sourceTree = "<group>"; };
 		24EF7BC82BDF8C0100B992F3 /* KCC-Hanbit.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KCC-Hanbit.otf"; sourceTree = "<group>"; };
 		24EF7BCA2BDF9AA400B992F3 /* DiaryBigCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryBigCard.swift; sourceTree = "<group>"; };
@@ -256,7 +254,6 @@
 			isa = PBXGroup;
 			children = (
 				2481A0202BCCD21800003B15 /* Tab.swift */,
-				24BC25D92BD0388C002D9EDA /* AnimatedIcons.swift */,
 			);
 			path = Tab;
 			sourceTree = "<group>";
@@ -266,8 +263,8 @@
 			children = (
 				24A09C282BCD20A30080C29C /* Welcome */,
 				24A09C1E2BCD201D0080C29C /* Login */,
-				24A09C192BCD1FB90080C29C /* Home */,
 				24ABD1182BCE585F0089764C /* Map */,
+				24A09C192BCD1FB90080C29C /* Home */,
 				2481A0272BCCD3AA00003B15 /* Diaries */,
 				24A09C212BCD20470080C29C /* Proflie */,
 				2481A0232BCCD25300003B15 /* Tab */,
@@ -543,7 +540,6 @@
 				24A09C202BCD202B0080C29C /* LoginView.swift in Sources */,
 				24819FEE2BCCCE2B00003B15 /* JournetApp.swift in Sources */,
 				24A09C232BCD205B0080C29C /* PHeaderView.swift in Sources */,
-				24BC25DA2BD0388C002D9EDA /* AnimatedIcons.swift in Sources */,
 				24A09C2D2BCD20E60080C29C /* IntroductionView.swift in Sources */,
 				24A09C302BCD210E0080C29C /* IntroductionOne.swift in Sources */,
 				24ABD1172BCE52CA0089764C /* SearchingBar.swift in Sources */,
