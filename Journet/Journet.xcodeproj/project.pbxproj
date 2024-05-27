@@ -480,7 +480,6 @@
 			);
 			mainGroup = 24819FE12BCCCE2B00003B15;
 			packageReferences = (
-				24BC25C92BD02BD3002D9EDA /* XCRemoteSwiftPackageReference "lottie-ios" */,
 			);
 			productRefGroup = 24819FEB2BCCCE2B00003B15 /* Products */;
 			projectDirPath = "";
@@ -851,17 +850,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		24BC25C92BD02BD3002D9EDA /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/airbnb/lottie-ios";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 4.4.3;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCVersionGroup section */
 		24819FF82BCCCE2D00003B15 /* Journet.xcdatamodeld */ = {
