@@ -1,6 +1,8 @@
 import SwiftUI
 
 struct CustomPagingIndicatorView: View {
+    var onClose: () -> ()
+    
     @Environment(SharedData.self) private var sharedData
     @Namespace private var animation
     
@@ -56,9 +58,7 @@ struct CustomPagingIndicatorView: View {
             }
             .background(.ultraThinMaterial, in: .capsule)
             
-            Button {
-                
-            } label: {
+            Button(action: onClose) {
                 Image(systemName: "xmark")
                     .frame(width: 35, height: 35)
                     .background(.ultraThinMaterial, in: .circle)

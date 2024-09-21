@@ -4,6 +4,7 @@ struct HHeaderView: View {
     var size: CGSize
     var safeArea: EdgeInsets
     @Environment(SharedData.self) private var sharedData
+    @State private var scrollPosition: ScrollPosition = .init()
     
     var body: some View {
         let screenHeight = size.height + safeArea.top + safeArea.bottom
@@ -45,7 +46,20 @@ struct HHeaderView: View {
         .frame(height: screenHeight)
         .frame(height: screenHeight - (minimisedHeight - (minimisedHeight * sharedData.progress)), alignment: .bottom)
         .overlay(alignment: .bottom) {
-            CustomPagingIndicatorView()
+            CustomPagingIndicatorView {
+                Task {
+                    if sharedData.gridScrollOffset != 0 {
+                        withAnimation(.easeInOut(duration: 0.15)) {
+                            scrollPosition.scrollTo(edge: .bottom)
+                        }
+                        try? await Task.sleep(for: .seconds(0.13))
+                    }
+                    withAnimation(.easeInOut(duration: 0.25)) {
+                        sharedData.progress = 0
+                        sharedData.isExpanded = false
+                    }
+                }
+            }
         }
     }
     
@@ -60,10 +74,12 @@ struct HHeaderView: View {
                         .frame(height: 120)
                 }
             }
+            .scrollTargetLayout()
             .offset(y: sharedData.progress * -(safeArea.bottom + 20))
         }
         .defaultScrollAnchor(.bottom)
         .scrollDisabled(!sharedData.isExpanded)
+        .scrollPosition($scrollPosition)
         .scrollClipDisabled()
         .onScrollGeometryChange(for: CGFloat.self, of: {
             $0.contentOffset.y - $0.contentSize.height + $0.containerSize.height
