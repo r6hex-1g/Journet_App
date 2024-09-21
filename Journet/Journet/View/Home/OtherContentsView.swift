@@ -9,6 +9,8 @@ struct OtherContentsView: View {
             DummyView("Location", .purple)
             DummyView("Screenshot", .pink)
         }
+        .safeAreaPadding(.horizontal, 10)
+        .background(.gray.opacity(0.2))
     }
     
     //MARK: - Title and Horizontal ScrollView
