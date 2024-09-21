@@ -14,21 +14,39 @@ struct HHeaderView: View {
                 // MARK: - Grid MapView
                 GridMapView()
                     .frame(width: size.width)
+                    .id(1)
                 
                 Group {
                     StrechableView(.blue)
+                        .id(2)
                     StrechableView(.yellow)
+                        .id(3)
                     StrechableView(.cyan)
+                        .id(4)
                 }
                 .frame(height: screenHeight - minimisedHeight)
             }
+            .padding(.bottom, safeArea.bottom + 20)
+            .scrollTargetLayout()
+            .offset(y: sharedData.canPullUp ? sharedData.gridScrollOffset : 0)
         }
+        .scrollClipDisabled()
         .scrollIndicators(.hidden)
         .scrollTargetBehavior(.paging)
+        .scrollPosition(id: .init(get: {
+            return sharedData.activePage
+        }, set: {
+            if let newwValue = $0 {
+                sharedData.activePage = newwValue
+            }
+        }))
         
         .scrollDisabled(sharedData.isExpanded)
         .frame(height: screenHeight)
-        .frame(height: screenHeight - minimisedHeight, alignment: .bottom)
+        .frame(height: screenHeight - (minimisedHeight - (minimisedHeight * sharedData.progress)), alignment: .bottom)
+        .overlay(alignment: .bottom) {
+            CustomPagingIndicatorView()
+        }
     }
     
     //MARK: - Grid Views
@@ -42,9 +60,16 @@ struct HHeaderView: View {
                         .frame(height: 120)
                 }
             }
+            .offset(y: sharedData.progress * -(safeArea.bottom + 20))
         }
         .defaultScrollAnchor(.bottom)
         .scrollDisabled(!sharedData.isExpanded)
+        .scrollClipDisabled()
+        .onScrollGeometryChange(for: CGFloat.self, of: {
+            $0.contentOffset.y - $0.contentSize.height + $0.containerSize.height
+        }, action: { oldValue, newValue in
+            sharedData.gridScrollOffset = newValue
+        })
     }
     
     //MARK: - Paging Views
